@@ -9,7 +9,8 @@ int main()
   //declare variables
   string firstname = "";
   string lastname = "";
-
+  int lucky;
+ 
   //get user input
   std::cout<<"What is your firstname?"<<std::endl;
   std::cin>>firstname;
@@ -20,6 +21,7 @@ int main()
   std::cout<<"Welcome "<<firstname[0]<<lastname[0]<<" here is your fortune"<<endl;
 
   //tell fortune
+  std::cout<<"Your lucky number is "<<firstname.length()<<endl;
 
   return 0;
 }
