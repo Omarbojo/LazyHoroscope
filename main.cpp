@@ -23,5 +23,8 @@ int main()
   //tell fortune
   std::cout<<"Your lucky number is "<<firstname.length()<<endl;
 
+ 
+  std::cout<<"Have a good day!"<<std::endl;
+
   return 0;
 }
